@@ -50,6 +50,11 @@ This worked in the docker container but probably shouldn't...
 bazel build //examples/batch:example_simple
 bazel-bin/examples/batch/example_simple
 
+bazel build //examples/grpc/client_grpc
+bazel build //examples/grpc/server_grpc
+
+bazel-bin/examples/grpc/server_grpc
+bazel-bin/examples/grpc/client_grpc
 ```
 
 
