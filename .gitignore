@@ -50,3 +50,6 @@
 /build
 
 tags
+
+*.dev
+.venv/
